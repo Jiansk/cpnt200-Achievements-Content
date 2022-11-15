@@ -1,0 +1,1 @@
+# cpnt200-Assignment-2Strapi-Project-and-Model.
