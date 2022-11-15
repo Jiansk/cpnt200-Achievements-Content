@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "traditional_arts",
+  "info": {
+    "singularName": "traditional-art",
+    "pluralName": "traditional-arts",
+    "displayName": "Traditional art"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "art_gallery": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::art-gallery.art-gallery"
+    }
+  }
+}
